@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ZeusERP.DataAccess.Migrations.Identity
+namespace ZeusERP.DataAccess.Migrations
 {
-    public partial class AllahMigration : Migration
+    public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

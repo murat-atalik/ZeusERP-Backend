@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ZeusERP.DataAccess.Migrations
+namespace ZeusERP.DataAccess.Migrations.Zeus
 {
-    public partial class PrealphaMigration : Migration
+    public partial class IndeMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -159,7 +159,7 @@ namespace ZeusERP.DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Reference = table.Column<string>(nullable: true),
                     ProductId = table.Column<int>(nullable: false),
-                    BoMType = table.Column<int>(nullable: true),
+                    BoMType = table.Column<int>(nullable: false),
                     Quantity = table.Column<decimal>(nullable: false)
                 },
                 constraints: table =>
@@ -305,6 +305,56 @@ namespace ZeusERP.DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_t_manu_orders_unbuild", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "t_plm_eco_tags",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(nullable: true),
+                    ColorCode = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_plm_eco_tags", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "t_plm_eco_types",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(nullable: true),
+                    EmailAlias = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_plm_eco_types", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "t_plm_ecos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Summary = table.Column<string>(nullable: true),
+                    ResponsibleId = table.Column<int>(nullable: false),
+                    ApplyOn = table.Column<bool>(nullable: false),
+                    ProductId = table.Column<int>(nullable: false),
+                    Effectivity = table.Column<bool>(nullable: false),
+                    EffectivityDate = table.Column<DateTime>(nullable: false),
+                    ECOTagsId = table.Column<int>(nullable: false),
+                    Note = table.Column<string>(nullable: true),
+                    ApproverId = table.Column<int>(nullable: false),
+                    EcoStage = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_plm_ecos", x => x.Id);
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -356,6 +406,15 @@ namespace ZeusERP.DataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "t_manu_orders_unbuild");
+
+            migrationBuilder.DropTable(
+                name: "t_plm_eco_tags");
+
+            migrationBuilder.DropTable(
+                name: "t_plm_eco_types");
+
+            migrationBuilder.DropTable(
+                name: "t_plm_ecos");
         }
     }
 }

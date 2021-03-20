@@ -24,3 +24,15 @@ C:\Projects\ZeusERP\ZeusERP.Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\
 C:\Projects\ZeusERP\ZeusERP.Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.pdb
 C:\Projects\ZeusERP\ZeusERP.Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.genruntimeconfig.cache
 C:\Projects\ZeusERP\ZeusERP.Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.csprojAssemblyReference.cache
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\bin\Debug\netcoreapp3.1\ZeusERP.TestConsole.exe
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\bin\Debug\netcoreapp3.1\ZeusERP.TestConsole.deps.json
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\bin\Debug\netcoreapp3.1\ZeusERP.TestConsole.runtimeconfig.json
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\bin\Debug\netcoreapp3.1\ZeusERP.TestConsole.runtimeconfig.dev.json
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\bin\Debug\netcoreapp3.1\ZeusERP.TestConsole.dll
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\bin\Debug\netcoreapp3.1\ZeusERP.TestConsole.pdb
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.AssemblyInfoInputs.cache
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.AssemblyInfo.cs
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.csproj.CoreCompileInputs.cache
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.dll
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.pdb
+E:\Project\ZeusERP-Backend\ZeusERP.TestConsole\obj\Debug\netcoreapp3.1\ZeusERP.TestConsole.genruntimeconfig.cache

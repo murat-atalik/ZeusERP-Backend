@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6KG23EZMAqLdinn11PEy3rjByKjhyHGT7v3JazxSN5NQmdPHOse/p0ZMlVgw5h2i2B8g67ZjPEHNX+1yhF5UTQ==",
+  "dgSpecHash": "7Y09a+W2UwO2xuMavmYhwcFwERYM8HQZvBgllKE1pV9mXth0uhHTxZILakOtSnDUnn6us68h7/hpxwVVzEBlJg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ZeusERP\\ZeusERP.Backend\\ZeusERP.TestConsole\\ZeusERP.TestConsole.csproj",
+  "projectFilePath": "E:\\Project\\ZeusERP-Backend\\ZeusERP.TestConsole\\ZeusERP.TestConsole.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

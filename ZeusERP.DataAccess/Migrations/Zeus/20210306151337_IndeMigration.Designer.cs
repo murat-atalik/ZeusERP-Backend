@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ZeusERP.DataAccess.Contexts;
 
-namespace ZeusERP.DataAccess.Migrations
+namespace ZeusERP.DataAccess.Migrations.Zeus
 {
     [DbContext(typeof(ZeusContext))]
-    [Migration("20210103115017_AllahMigration")]
-    partial class AllahMigration
+    [Migration("20210306151337_IndeMigration")]
+    partial class IndeMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

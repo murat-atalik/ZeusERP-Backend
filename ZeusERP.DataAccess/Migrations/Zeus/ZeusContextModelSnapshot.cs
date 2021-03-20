@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ZeusERP.DataAccess.Contexts;
 
-namespace ZeusERP.DataAccess.Migrations
+namespace ZeusERP.DataAccess.Migrations.Zeus
 {
     [DbContext(typeof(ZeusContext))]
     partial class ZeusContextModelSnapshot : ModelSnapshot
