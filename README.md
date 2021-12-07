@@ -2,6 +2,9 @@
 2020 Eylül Ayında başlayan okul projemiz olan bir Kurumsal Kaynak Planlama Yazılımı.
 Sadece Manufacturing ve Inventory modülleri tamamlanmıştır.
 
+# ZeusERP-WebUI
+[Click here](https://github.com/murat-atalik/ZeusERP-WebUI)
+
 # Lisans Bilgileri
 
 Bu projenin kaynak kodu GPL v3 lisansı üzerinde kullanım geçerliliği bulundurmaktadır.
